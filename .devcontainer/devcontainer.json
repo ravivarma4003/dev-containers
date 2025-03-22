@@ -1,0 +1,16 @@
+{
+    "name": "Node.js TypeScript Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [3000],
+    "settings": {
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ],
+    "postCreateCommand": "npm install"
+  }
+  
