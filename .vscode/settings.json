@@ -1,0 +1,6 @@
+{
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.chat.setupTests.enabled": false,
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.chat.completionContext.typescript.mode": "off"
+}

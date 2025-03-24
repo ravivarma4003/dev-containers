@@ -12,8 +12,6 @@
         "extensions": [
           "dbaeumer.vscode-eslint",
           "esbenp.prettier-vscode",
-          "-GitHub.copilot",
-          "-AmazonWebServices.amazon-q-vscode",
           "Orta.vscode-jest"
         ]
       }
