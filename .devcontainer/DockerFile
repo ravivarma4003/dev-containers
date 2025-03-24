@@ -3,15 +3,8 @@ FROM node:18
 # Set working directory inside the container
 WORKDIR /workspace
 
-# Copy package.json and install dependencies
-COPY package.json package-lock.json ./
-RUN npm install
-
 # Install TypeScript globally
 RUN npm install -g typescript
-
-# Copy all files
-COPY . .
 
 # Default command to start the app
 CMD ["npm", "run", "dev"]

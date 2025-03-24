@@ -4,13 +4,20 @@
       "dockerfile": "Dockerfile"
     },
     "forwardPorts": [3000],
-    "settings": {
-      "terminal.integrated.defaultProfile.linux": "bash"
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "bash"
+        },
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "-GitHub.copilot",
+          "-AmazonWebServices.amazon-q-vscode",
+          "Orta.vscode-jest"
+        ]
+      }
     },
-    "extensions": [
-      "dbaeumer.vscode-eslint",
-      "esbenp.prettier-vscode"
-    ],
     "postCreateCommand": "npm install"
   }
   
